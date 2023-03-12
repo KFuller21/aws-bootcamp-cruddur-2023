@@ -9,8 +9,7 @@ tasks:
       sudo ./aws/install
       cd $KRISTEN_WORKSPACE_ROOT
   - name: react-js
-    init:
-      cd /workspace/aws-bootcamp-cruddur-2023
+    command:
       cd frontend-react-js
       npm i
 
